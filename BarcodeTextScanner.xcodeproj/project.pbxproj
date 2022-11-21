@@ -11,6 +11,7 @@
 		9C31A76A292C276B000217B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31A769292C276B000217B6 /* ContentView.swift */; };
 		9C31A76C292C276D000217B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C31A76B292C276D000217B6 /* Assets.xcassets */; };
 		9C31A76F292C276D000217B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C31A76E292C276D000217B6 /* Preview Assets.xcassets */; };
+		9C31A776292C2841000217B6 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C31A775292C2841000217B6 /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9C31A769292C276B000217B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C31A76B292C276D000217B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C31A76E292C276D000217B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C31A775292C2841000217B6 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9C31A767292C276B000217B6 /* BarcodeTextScannerApp.swift */,
+				9C31A775292C2841000217B6 /* AppViewModel.swift */,
 				9C31A769292C276B000217B6 /* ContentView.swift */,
 				9C31A76B292C276D000217B6 /* Assets.xcassets */,
 				9C31A76D292C276D000217B6 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				9C31A76A292C276B000217B6 /* ContentView.swift in Sources */,
 				9C31A768292C276B000217B6 /* BarcodeTextScannerApp.swift in Sources */,
+				9C31A776292C2841000217B6 /* AppViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 257XYBXF37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 257XYBXF37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
